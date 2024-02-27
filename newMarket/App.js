@@ -1,21 +1,15 @@
 import React from 'react';
-import { StyleSheet, Text, View, SafeAreaView, StatusBar } from 'react-native';
-
+import { View, SafeAreaView, StatusBar } from 'react-native';
+import Market from './src/screens/market';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Teste</Text>
-      <StatusBar style="auto" />
+    <View style={{flex:1}}>
+      <Market/>
+      <StatusBar/>
+      <SafeAreaView/>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
