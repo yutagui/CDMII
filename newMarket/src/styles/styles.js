@@ -46,7 +46,7 @@ export default StyleSheet.create({
         margin: 10,
         backgroundColor: "#8B0000",
         paddingVertical: 16,
-        borderRadius: 6
+        borderRadius: 6,
     },
     textoBotao:{
         color: 'white',
@@ -55,4 +55,58 @@ export default StyleSheet.create({
         lineHeight: 26,
         fontWeight: 'bold'
     },
+    descricaoLista:{
+        fontWeight:'bold',
+        fontSize: 16,
+        textAlign: 'center'
+    },
+    itemCesta:{
+        textAlign:'center',
+        fontWeight: 'bold',
+        fontSize: 12,
+        paddingVertical:20
+    },
+    carnes:{
+        //estilo da view
+        flexDirection: 'row',
+        paddingVertical: 20,
+        justifyContent:'space-between'
+    },
+    imagemCarne:{
+        //estilo da imagem carne 
+        width:60,
+        height:60,
+        marginLeft: 5,
+    },
+    itens:{
+        fontSize: 16,
+        lineHeight: 55,
+        marginLeft: 10,
+        fontWeight: 'bold',
+        textAlign: 'center'
+    },
+    precoItens:{
+        fontSize: 16,
+        lineHeight: 55,
+        marginLeft: 10,
+        fontWeight: 'bold',
+        textAlign: 'center',
+        color: 'red',
+    },
+    botaoAdicionar:{
+        margin:10,
+        paddingVertical: 1,
+        backgroundColor: "#8B0000",
+        borderRadius: 6,
+    },
+    textoAdicionar:{
+        color: 'white',
+        textAlign: 'center',
+        fontSize: 12,
+        padding: 10,
+        fontWeight: 'bold'
+    },
+    fundoResumoCompras:{
+        backgroundColor: '#f0f8ff'
+    }
 })
