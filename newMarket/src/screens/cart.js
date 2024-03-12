@@ -11,7 +11,7 @@ import flatIron from '../../assets/produtos/flat_iron.png';
 import primeRib from '../../assets/produtos/prime_rib.png';
 import tomahawk from '../../assets/produtos/tomahawk.png';
 
-export default function Cart(){
+export default function Cart({navigation}){
     return <ScrollView>
         <View style={styles.fundoResumoCompras}>
             <Text style={styles.cestaCarnes}>
@@ -65,7 +65,9 @@ export default function Cart(){
                     }
             </Text>
 
-            <TouchableOpacity style={styles.botaoComprar}>
+            <TouchableOpacity style={styles.botaoComprar} onPress={()=>{
+                navigation.navigate('Check')
+            }}>
                 <Text style={styles.textoBotao}>  
                     Finalizar Compra
                 </Text>

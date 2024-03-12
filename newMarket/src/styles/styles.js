@@ -7,6 +7,9 @@ export default StyleSheet.create({
         width: width,
         height: 578/768 * width,
     },
+    tela:{
+        flex:1
+    },
     cestaCarnes:{
         color: "red",
         fontSize: 26,
@@ -81,32 +84,58 @@ export default StyleSheet.create({
     itens:{
         fontSize: 16,
         lineHeight: 55,
-        marginLeft: 10,
+        marginLeft: 5,
         fontWeight: 'bold',
         textAlign: 'center'
     },
     precoItens:{
         fontSize: 16,
         lineHeight: 55,
-        marginLeft: 10,
+        marginLeft: 3,
         fontWeight: 'bold',
         textAlign: 'center',
         color: 'red',
     },
     botaoAdicionar:{
-        margin:10,
-        paddingVertical: 1,
+        width:75,
+        height: 35,
         backgroundColor: "#8B0000",
         borderRadius: 6,
+        marginRight: 1,
+        marginVertical: 10,
     },
     textoAdicionar:{
         color: 'white',
         textAlign: 'center',
         fontSize: 12,
         padding: 10,
-        fontWeight: 'bold'
+        fontWeight: 'bold', 
     },
     fundoResumoCompras:{
         backgroundColor: '#f0f8ff'
-    }
+    },
+    textoCheck:{
+        color: "#8B0000",
+        fontSize: 20,
+        lineHeight: 42,
+        fontWeight: 'bold',
+        textAlign: "center",
+    },
+    input:{
+        height: 40,
+        margin: 12,
+        borderWidth: 1,
+        padding: 10,
+        backgroundColor: 'white',
+        borderRadius: 6
+    },
+    logoLogin:{
+        width: 200,
+        height: 200,
+    },
+    textoCadastrar:{
+        fontSize: 20,
+        fontWeight: 'bold',
+        lineHeight: 60
+    },
 })
