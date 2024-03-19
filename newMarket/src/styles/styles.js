@@ -138,4 +138,20 @@ export default StyleSheet.create({
         fontWeight: 'bold',
         lineHeight: 60
     },
+    logoRegister:{
+        width: 100,
+        height: 100,
+    },
+    botaoRegister:{
+        margin: 10,
+        backgroundColor: "#8B0000",
+        paddingHorizontal: 20,
+        paddingVertical: 10,
+        borderRadius: 6,
+    },
+    fundoBotaoRegister:{
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center'
+    }
 })

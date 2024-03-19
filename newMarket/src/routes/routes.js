@@ -8,6 +8,7 @@ import Cart from '../screens/cart';
 //import Check from '../screens/check';
 import Home from "./home";
 import Login from "../screens/login";
+import Register from "../screens/register";
 
 const Tab = createBottomTabNavigator()
 
