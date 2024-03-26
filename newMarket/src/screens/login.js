@@ -22,6 +22,7 @@ export default function Login({navigation}){
     <View>
         <TouchableOpacity style={styles.botaoComprar} onPress={() =>{
              console.log("Login:", login, '\n', "Senha:", senha)
+             navigation.navigate('Market')
         }}>
                         <Text style={styles.textoBotao}>
                             Logar

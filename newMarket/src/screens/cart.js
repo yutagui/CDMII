@@ -12,6 +12,7 @@ import primeRib from '../../assets/produtos/prime_rib.png';
 import tomahawk from '../../assets/produtos/tomahawk.png';
 
 export default function Cart({navigation}){
+
     return <ScrollView>
         <View style={styles.fundoResumoCompras}>
             <Text style={styles.cestaCarnes}>

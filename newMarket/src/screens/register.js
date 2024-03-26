@@ -25,7 +25,7 @@ export default function Register({navigation}){
         <TouchableOpacity style={styles.botaoRegister} onPress={() => {
             console.log("Login:", login, '\n', "Senha:", senha, '\n', "Senha confirmada: ", senhaConfirmada)
             if(senha != senhaConfirmada){
-                alert("As senhas tem que ser iguais")
+                alert("As senhas não podem ser diferentes!")
                 navigation.navigate('Register')
             }
             else{
